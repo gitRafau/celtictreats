@@ -8,6 +8,6 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
-		<h1 class="text-center">Hello World</h1>
+		<h1 class="text-center">YOU MUST Background color CHANGE! :D </h1>
 
 		
