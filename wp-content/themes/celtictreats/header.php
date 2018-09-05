@@ -11,8 +11,7 @@
 	</head>
 	<body>
 		<main class="container-fluid">
-			<div class="row">
-  
+			<div class="row">  
 				<div class="col-md-12" style="background-color: black; height: 300px;">
 					<!--<div class="owl-carousel owl-theme"> 
 					  <div class="item"><img src="<?php echo get_theme_file_uri('/img/fullimage1.jpg'); ?>" alt="The Last of us"></div>
