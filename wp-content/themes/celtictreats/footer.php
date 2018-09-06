@@ -1,5 +1,5 @@
 <footer>
-	<div class="row" style="background-image: url('<?php echo get_theme_file_uri('/img/footer_bones.png'); ?>'); height: auto; padding: 2em 0 2em; background-repeat: no-repeat;">
+	<div class="row" style="background-image: url('<?php echo get_theme_file_uri('/img/footer_bones.png'); ?>'); height: auto; padding: 2em 0 0em; background-repeat: no-repeat;">
 		<div class="col-xs-6 col-xs-offset-4 col-sm-6 col-md-3 col-lg-1 col-lg-offset-1">
 			<a href="">
 				<img src="<?php echo get_theme_file_uri('img/logo_nav.png'); ?>" alt="">
@@ -15,15 +15,20 @@
 				Limerick, Irleand
 			</p>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 col-lg-offset-1">
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 col-lg-offset-1">
 			<p>
-				P: + 353 (0) 87 935 60 20
+				Warehouse: <br/>
+				Unit 10A, EastLink Business Park,<br/>
+				Ballysimon Road,
+				Limerick
 			</p>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 col-lg-offset-1">
-			<p>
-				P: + 353 (0) 87 935 60 20
-			</p>
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-lg-offset-1">
+			<div class="phone">
+				<img src="<?php echo get_theme_file_uri('img/phone_icon.png'); ?>" alt="">
+				<p>Order Now</p>
+				<span>+ 353 (0) 87 935 60 20</span>
+			</div>
 		</div>
 	</div>	
 </footer>			

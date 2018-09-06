@@ -6,7 +6,7 @@ function petFiles() {
     wp_enqueue_style('owlstyle', get_stylesheet_directory_uri() . '/css/owl.carousel.min.css'); 
    	wp_enqueue_style('owlstyle', get_stylesheet_directory_uri() . '/css/owl.theme.default.min.css');            
     wp_enqueue_script('petjs', get_theme_file_uri('/js/pet.js'), array( 'jquery' ), false, true );
-    wp_enqueue_script('ownsliderjs', get_theme_file_uri('/js/owl.carousel.min.js'), array( 'jquery' ), false, true );
+    wp_enqueue_script('ownsliderjs', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js' ,array( 'jquery' ), false, true );
 }
 
 add_action('wp_enqueue_scripts', 'petFiles');
