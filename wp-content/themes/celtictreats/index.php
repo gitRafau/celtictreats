@@ -171,9 +171,16 @@
 	</div>
 </div>
 
-<section class="category">
-	<h1 class="text-center">Stopka itd</h1>
+<h1 class="text-center">We love celtic treats</h1>
+<div class="subfooter" style="background-image: url('<?php echo get_theme_file_uri('/img/backg_bones.png'); ?>');">
+	
+	
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-4 col-lg-5 col-lg-offset-4">
+			<img height="400" class="petsy img-responsive" src="<?php echo get_theme_file_uri('/img/petsy.png'); ?>" alt="">
+		</div>
+	</div>
+</div>
 
-</section>
 
 <?php get_footer(); ?>
