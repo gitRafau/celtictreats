@@ -64,12 +64,12 @@
 		<div class="col-md-3 col-md-offset-1">
 			<div class="row">
 				<div class="col-md-4">
-					<img src="<?php echo get_theme_file_uri('img/logo_places.png'); ?>" height="80" alt="">
+					<img src="<?php the_field('logo') ?>" height="80" alt="">
 				</div>
 				<div class="col-md-8">
-					<p>Paws ,N' Claws</p>
+					<p><?php the_field('place'); ?></p>
 					<p>Foxes Bow</p>
-					<h5>Limeric Co. Limerick</h5>
+					<h5><?php the_field('city');?></h5>
 					<h5>Irleand</h5>
 				</div>
 			</div>
