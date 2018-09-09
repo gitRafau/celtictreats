@@ -34,9 +34,24 @@ div.col-md-12{
 }
 
 
+.navbar-link, .navbar-link:hover{
+  color: #fff;
+  font-family: "Calibri", sans-serif;
+  text-transform: none;
+  font-size: .8em;
+}
 
+button.phone{
+  padding: .7em 1em .7em 1em; 
+  text-align: center;
+  background-color: #000;  
+  color: #fff;
+  font-weight: bold;
+}
 
-
+button.phone:hover{
+  color: #fff;
+}
 
 
 
@@ -362,10 +377,14 @@ img.petsy{
 p{
   color: #fff;
   font-weight: bold;
-  font-size: .9em;
+  font-size: 1.1em;
   z-index: 999;
   position: relative;
   text-transform: uppercase;
+}
+
+p a:hover{
+  text-decoration: none;
 }
 
 div.phone{  
@@ -392,4 +411,62 @@ div.phone span{
   margin: 0 5% auto;
   color: #fff;
   font-weight: 600;
+}
+
+h1.contact{
+    font-size: 3.4em;
+    color: #6d5531;
+    font-weight: bold;
+    text-transform: none;
+    margin-top: -1.2em;
+    margin-bottom: -1.2em;   
+    text-align: center;
+    margin-left: 1em;
+}
+
+.bread_box{
+  margin-top: .5em;
+}
+
+span.breadcrumps{
+  padding-top: 1.5em;  
+  font-size: .8em;
+    color: #6d5531;
+    font-weight: bold;
+    text-transform: none;
+
+}
+
+section.mapa{
+  padding-top: 2em;
+}
+
+.places > .row{
+  border-bottom: 1px solid #6d5531;
+  padding: 1em 0 1em;
+}
+
+
+section.places p{
+  color: #6d5531;
+  font-size: .7em;
+  text-align: left;
+  font-weight: 300;
+  line-height: .5em;
+  margin-bottom: .5em;
+}
+
+section.places p:nth-child(1){
+ padding-top: 1em; 
+
+}
+
+section.places h5{
+  color: #6d5531;
+  font-size: .8em;
+  font-weight: 800;
+  line-height: 1em;
+  margin-bottom: 0;
+  margin-top: 0;
+
 }
