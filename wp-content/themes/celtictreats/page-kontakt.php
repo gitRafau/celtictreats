@@ -64,13 +64,11 @@
 		<div class="col-md-3 col-md-offset-1">
 			<div class="row">
 				<div class="col-md-4">
-					<img src="<?php the_field('logo') ?>" height="80" alt="">
+					<img src="<?php the_field('foto') ?>" height="80" alt="">
 				</div>
 				<div class="col-md-8">
-					<p><?php the_field('place'); ?></p>
-					<p>Foxes Bow</p>
-					<h5><?php the_field('city');?></h5>
-					<h5>Irleand</h5>
+					<p><?php the_field('name'); ?></p>					
+					<h5><?php the_field('adres');?></h5>					
 				</div>
 			</div>
 		</div>
