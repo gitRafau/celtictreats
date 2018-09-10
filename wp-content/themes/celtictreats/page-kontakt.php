@@ -26,9 +26,9 @@ $miejsca = get_field('places', 5);
 
 ?>
 
-<section class="places">
-	<?php foreach ($miejsca as $item): ?>
-	<div class="row">		
+<section class="places">	
+	<div class="row">	
+	<?php foreach ($miejsca as $item): ?>	
 		<div class="col-md-3 col-md-offset-1">
 			<div class="row">
 				<div class="col-md-4">
@@ -39,9 +39,10 @@ $miejsca = get_field('places', 5);
 					<h5><?= $item['address']; ?></h5>					
 				</div>
 			</div>
-		</div>	
+		</div>
+		<?php endforeach; ?>	
 	</div>
-	<?php endforeach; ?>	
+		
 </section>
 
 
