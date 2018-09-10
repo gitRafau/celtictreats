@@ -2,9 +2,11 @@
 
 <divb class="container-fluid">
 
-<h1>tutaj będą wyświetlane zajebiste produkty</h1>
+<h1>Produkty</h1>
 
 
+
+<?php echo do_shortcode('[product id="27"]');?>
 
 </div>
 
