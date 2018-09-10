@@ -14,7 +14,7 @@
 
 <div class="containter">
 
-<h1 class="text-center">Produkty</h1>
+<h1 class="text-center">Produkty ALLLL</h1>
 	<div class="row">
 		<div class="col-md-4">
 			<?php echo do_shortcode('[product id="63"]');?>

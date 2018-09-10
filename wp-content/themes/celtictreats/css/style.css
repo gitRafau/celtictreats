@@ -285,21 +285,14 @@ div.jumbotron{
   margin: 0 35% auto;
 }
 
-div.jumbotron h1, h2, p{
-  color: #816741;
-  text-align: center;
-}
 
-div.jumbotron h1{
-  font-size: 2.2em;
-}
-
-div.jumbotron h2{
-  font-size: 1.3em;
-}
 
 div.jumbotron p{
   font-size: .9em;
+  color: #816741;
+  text-align: center;
+  font-weight: bold;
+
 }
 
 
@@ -420,6 +413,17 @@ h1.contact{
     text-transform: none;
     margin-top: -1.2em;
     margin-bottom: -1.2em;   
+    text-align: center;
+    margin-left: 1em;
+}
+
+h1.beef, .chicken, .pork, .rabbit{
+    font-size: 3.4em;
+    color: #6d5531;
+    font-weight: bold;
+    text-transform: none;
+    margin-top: -1em;
+    margin-bottom: -1em;   
     text-align: center;
     margin-left: 1em;
 }

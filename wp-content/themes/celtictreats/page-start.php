@@ -75,17 +75,15 @@
 			<div class="jumbotron">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<img class="img-responsive" height="150" src="<?php echo get_theme_file_uri('/img/pet_jumbo.png'); ?>" alt="">
+						<img class="img-responsive" height="150" src="<?= the_field('image');?>" alt="">
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<div class="logojumbo">
-							<img height="100" src="<?php echo get_theme_file_uri('/img/logo_jumbo.png'); ?>" alt="">
+							<img height="100" src="<?= the_field('logo');?>" alt="">
 						</div>
-						<h1>Profesional Food For Your Pet</h1>
 						
-						<h2>We love animals and produce them for their health</h2>
-						
-						<p>Lorem IpsumLorem IpsumLorem Lorem IpsumLorem IpsumLorem Lorem IpsumLorem IpsumLorem </p>
+						<p><?= the_field('text');?></p>
+ 
 					</div>
 				</div>
 			</div>
