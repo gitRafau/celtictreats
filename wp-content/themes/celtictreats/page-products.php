@@ -1,13 +1,20 @@
 <?php get_header();?>
 
-<divb class="container-fluid">
+<divb class="container">
 
-<h1>Produkty</h1>
-
-
-
-<?php echo do_shortcode('[product id="27"]');?>
-
+<h1 class="text-center">Produkty</h1>
+	<div class="row">
+		<div class="col-md-3">
+			<?php echo do_shortcode('[product id="63"]');?>
+		</div>
+		<div class="col-md-3">
+			<?php echo do_shortcode('[product id="63"]');?>
+		</div>
+		<div class="col-md-3">
+			<?php echo do_shortcode('[product id="63"]');?>
+		</div>
+	</div>
+	
 </div>
 
 

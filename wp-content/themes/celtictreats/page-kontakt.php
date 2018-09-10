@@ -22,7 +22,7 @@
 
 <?php
 
-$miejsca = get_field('places', 5);
+$miejsca = get_field('places');
 
 ?>
 
@@ -32,7 +32,7 @@ $miejsca = get_field('places', 5);
 		<div class="col-md-3 col-md-offset-1">
 			<div class="row">
 				<div class="col-md-4">
-					<img src="<?= $item['foto']; ?>" height="80" alt="">
+					<img src="<?php echo get_theme_file_uri('img/logo_places.png'); ?>" height="80" alt="">
 				</div>
 				<div class="col-md-8">
 					<p><?= $item['name']; ?></p>					
@@ -64,9 +64,14 @@ $miejsca = get_field('places', 5);
         iconAnchor: [10, 30],
         popupAnchor: [0, -35]
     });
-    L.marker([53.344100, -6.267490], {icon: brownPin}).addTo(map).bindPopup("Celtic Treats");
-    ;
-    var target = L.latLng('53.344100', '-6.267490');
+   <?php $miejsca = get_field('places'); ?>
+   <?php foreach ($miejsca as $item): ?>
+
+    L.marker([<?= $item['lat']; ?>, <?= $item['lng']; ?>], {icon: brownPin}).addTo(map).bindPopup("Here We Are!");
+   
+
+	<?php endforeach; ?>	
+    var target = L.latLng('<?= $item['lat']; ?>', '<?= $item['lng']; ?>');
     map.setView(target, 7);
 </script>
 
