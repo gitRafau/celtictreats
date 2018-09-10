@@ -4,7 +4,7 @@
 
 <div class="row" style="margin-top: 2em; border-top: solid .05em #6d5531; border-bottom: solid .05em #6d5531;">
 	<div class="col-md-3 bread_box">
-		<span class="breadcrumps">Home/Buy/WhereToBuy</span>
+		<span class="breadcrumps"><?php the_breadcrumb(); ?></span>
 	</div>
 	<div class="col-md-5 col-md-offset-0">
 		<h1 class="contact">Where To Buy</h1>
@@ -27,9 +27,10 @@ $miejsca = get_field('places');
 ?>
 
 <section class="places">	
+	
 	<div class="row">	
-	<?php foreach ($miejsca as $item): ?>	
-		<div class="col-md-3 col-md-offset-1">
+		<?php foreach ($miejsca as $item): ?>
+		<div class="col-md-3 col-md-offset-1">			
 			<div class="row">
 				<div class="col-md-4">
 					<img src="<?php echo get_theme_file_uri('img/logo_places.png'); ?>" height="80" alt="">
@@ -39,10 +40,11 @@ $miejsca = get_field('places');
 					<h5><?= $item['address']; ?></h5>					
 				</div>
 			</div>
+
 		</div>
 		<?php endforeach; ?>	
 	</div>
-		
+
 </section>
 
 
@@ -69,9 +71,10 @@ $miejsca = get_field('places');
 
     L.marker([<?= $item['lat']; ?>, <?= $item['lng']; ?>], {icon: brownPin}).addTo(map).bindPopup("Here We Are!");
    
-
-	<?php endforeach; ?>	
+<?php endforeach; ?>
+	<?php foreach ($miejsca as $item): ?>	
     var target = L.latLng('<?= $item['lat']; ?>', '<?= $item['lng']; ?>');
+   <?php endforeach; ?>
     map.setView(target, 7);
 </script>
 

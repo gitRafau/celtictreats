@@ -2,3 +2,11 @@
 
 2018-09-10T15:11:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
 
+2018-09-10T21:11:41+00:00 CRITICAL Uncaught Error: Call to undefined function the_breadcrumb() in C:\xampp\htdocs\celticpet\wp-content\themes\celtictreats\page-kontakt.php:7
+Stack trace:
+#0 C:\xampp\htdocs\celticpet\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\celticpet\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\celticpet\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+

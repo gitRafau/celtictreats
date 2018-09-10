@@ -470,3 +470,17 @@ section.places h5{
   margin-top: 0;
 
 }
+
+article.about{
+  padding: 2em 0 2em;
+}
+
+.about p{
+  color: #816741;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+  line-height: 1.5;
+  text-transform: none;
+}
