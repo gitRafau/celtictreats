@@ -59,13 +59,12 @@ $miejsca = get_field('places', 5);
 }).addTo(map);
 
     var brownPin = L.icon({
-        iconUrl: '<?php echo get_theme_file_uri('/dist/images/marker.png'); ?>',
-        //shadowUrl: 'leaf-shadow.png',
+        iconUrl: '<?php echo get_theme_file_uri('img/logo_places.png'); ?>',
         iconSize: [40],
         iconAnchor: [10, 30],
         popupAnchor: [0, -35]
     });
-    L.marker([53.344100, -6.267490], {icon: brownPin}).addTo(map).bindPopup("Papier Hurt<br/>96-100 Skierniewice<br/>ul. Konopnickiej 3B");
+    L.marker([53.344100, -6.267490], {icon: brownPin}).addTo(map).bindPopup("Celtic Treats");
     ;
     var target = L.latLng('53.344100', '-6.267490');
     map.setView(target, 7);
