@@ -42,10 +42,11 @@ div.col-md-12{
 }
 
 button.phone{
-  padding: .7em 1em .7em 1em; 
+  padding: .7em 0em .3em 1em; 
   text-align: center;
   background-color: #000;  
   color: #fff;
+  width: 33%;
   font-weight: bold;
 }
 
@@ -239,10 +240,13 @@ section.topproducts{
   height: auto;
 }
 
-section.topproducts>h1{  
+section .topproducts >h1{  
   color: #816741;
-  margin-left: 2.5em;
+  margin-left: 2em;
   font-weight: 600;
+  text-align: left;
+  text-transform: none;
+  font-size: 2em;
 }
 
 
@@ -320,7 +324,7 @@ section.category{
 section.category>h1{ 
   padding-top: 5em; 
   color: #816741;
-  margin-left: 2.5em;
+  
   font-weight: 600;
 }
 
@@ -342,7 +346,10 @@ div.cat_paralax{
 
 div.meat{
   padding: .5em;
+  margin-top: 1em;
   background-color: #b3a48d;
+  width: auto;
+
 }
 
 div.subfooter{
@@ -353,8 +360,8 @@ div.subfooter{
 }
 
 h1{
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: .2em;
+  padding-bottom: .3em;
   font-size: 3.2em;
   color: #6d5531;
   font-weight: bold;
@@ -495,6 +502,17 @@ section.code404{
   font-size: 1em;
 }
 
+
 img.logo_main{
   margin: 0 40% auto;
+}
+
+p.cat_name{
+  position: absolute;  
+  font-family: inherit;
+  font-size: 2em;
+  color: red;
+  bottom: 1px;
+  text-align: center;
+  width: 100%;
 }

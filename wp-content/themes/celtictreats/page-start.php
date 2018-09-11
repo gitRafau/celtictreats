@@ -1,7 +1,9 @@
 <?php get_header();?>
 
-<section class="topproducts">
-	<h1>Top Products:</h1>
+<section>
+	<header class="topproducts">
+		<h1>Top Products:</h1>
+	</header>
 	<div class="row">		
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-2 col-md-offset-1 col-lg-2">
 			<div class="card image">
@@ -158,29 +160,33 @@
 
 
 <section class="category">
-	<h1 class="text-center">Category</h1>
-
+	<h1 class="text-center">Categories</h1>
 </section>
 
 <div class="parallax2" style="background-image: url('<?php echo get_theme_file_uri('/img/bulldog_paralax.png'); ?>');">
 	<div class="row cat_paralax">
-		<div class="col-xs-2 col-sm-2 col-md-2 col-md-offset-2 col-lg-2">
+		<div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-2 col-lg-2">
 			<div class="meat">
-				 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/001-bone.png'); ?>" alt="Card image cap">
+				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_bone.jpg'); ?>" alt="Card image cap">
+				 <p class="card-text cat_name">Beef</p>
 			</div>
 		</div>
-		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 			<div class="meat">
-				 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/001-bone.png'); ?>" alt="Card image cap">
-			</div>		</div>
-		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_bone.jpg'); ?>" alt="Card image cap">
+				  <p class="card-text cat_name">Chicken</p>
+			</div>	
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 			<div class="meat">
-				 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/001-bone.png'); ?>" alt="Card image cap">
+				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_bone.jpg'); ?>" alt="Card image cap">
+				  <p class="card-text cat_name">Pork</p>
 			</div>
 		</div>
-		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 			<div class="meat">
-				 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/001-bone.png'); ?>" alt="Card image cap">
+				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_bone.jpg'); ?>" alt="Card image cap">
+				  <p class="card-text cat_name">Rabbit</p>
 			</div>
 		</div>
 	</div>
