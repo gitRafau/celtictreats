@@ -494,3 +494,7 @@ section.code404{
   height: auto;
   font-size: 1em;
 }
+
+img.logo_main{
+  margin: 0 40% auto;
+}
