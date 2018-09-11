@@ -12,22 +12,15 @@
 </div>
 </div>
 
-<div class="containter">
+<div class="containter-fluid">
 
-<h1 class="text-center">Produkty ALLLL</h1>
+<h1 class="text-center">Wszystkie Produkty</h1>
 	<div class="row">
-		<div class="col-md-4">
-			<?php echo do_shortcode('[product id="63"]');?>
-		</div>
-		<div class="col-md-4">
-			<?php echo do_shortcode('[product id="63"]');?>
-		</div>
-		<div class="col-md-4">
-			<?php echo do_shortcode('[product id="63"]');?>
-		</div>
+
 	</div>
 	
 </div>
 
+<?php echo do_shortcode('[product id="63"]');?>
 
 <?php get_footer(); ?>

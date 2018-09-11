@@ -16,7 +16,7 @@
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0  col-lg-2">
 			<div class="card image ">
-			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/beef_round.jpg'); ?>" alt="Card image cap">
+			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="card-body">
 			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
 			    <p class="card-text">Bone Natural</p>
@@ -26,7 +26,7 @@
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
 			<div class="card image">
-			 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/pork.jpg'); ?>" alt="Card image cap">
+			 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="card-body">
 			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
 			    <p class="card-text">Bone Natural</p>	
@@ -35,7 +35,7 @@
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
 			<div class="card image">
-			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/chicken.jpg'); ?>" alt="Card image cap">
+			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="card-body">
 			   <h5 class="card-title">Category: Beef/Beef Lungs</h5>
 			    <p class="card-text">Bone Natural</p>	
@@ -117,7 +117,7 @@
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
 			<div class="card image">
-			 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/pork.jpg'); ?>" alt="Card image cap">
+			 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/cat_pork.jpg'); ?>" alt="Card image cap">
 			  <div class="card-body">
 			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
 			    <p class="card-text">Bone Natural</p>	
@@ -126,7 +126,7 @@
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
 			<div class="card image">
-			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/chicken.jpg'); ?>" alt="Card image cap">
+			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/cat_chicken.jpg'); ?>" alt="Card image cap">
 			  <div class="card-body">
 			   <h5 class="card-title">Category: Beef/Beef Lungs</h5>
 			    <p class="card-text">Bone Natural</p>	
@@ -167,26 +167,34 @@
 	<div class="row cat_paralax">
 		<div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-2 col-lg-2">
 			<div class="meat">
+				<a href="<?=site_url('products/beef');?>">
 				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_bone.jpg'); ?>" alt="Card image cap">
 				 <p class="card-text cat_name">Beef</p>
+				</a>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 			<div class="meat">
-				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_bone.jpg'); ?>" alt="Card image cap">
+				<a href="<?=site_url('products/chicken');?>">
+				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_chicken.jpg'); ?>" alt="Card image cap">
 				  <p class="card-text cat_name">Chicken</p>
+				</a>
 			</div>	
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 			<div class="meat">
-				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_bone.jpg'); ?>" alt="Card image cap">
+				<a href="<?=site_url('products/pork');?>">
+				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_pork.jpg'); ?>" alt="Card image cap">
 				  <p class="card-text cat_name">Pork</p>
+				</a>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 			<div class="meat">
-				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_bone.jpg'); ?>" alt="Card image cap">
+				<a href="<?=site_url('products/rabbit');?>">
+				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_rabbit.jpg'); ?>" alt="Card image cap">
 				  <p class="card-text cat_name">Rabbit</p>
+				</a>
 			</div>
 		</div>
 	</div>

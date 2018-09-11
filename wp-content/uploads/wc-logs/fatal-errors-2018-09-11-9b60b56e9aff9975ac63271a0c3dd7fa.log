@@ -1,0 +1,22 @@
+2018-09-11T15:33:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-09-11T19:38:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-09-11T20:28:58+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-09-11T20:55:25+00:00 CRITICAL Uncaught Error: Call to undefined function do_shortode() in C:\xampp\htdocs\celticpet\wp-content\themes\celtictreats\page-beef.php:10
+Stack trace:
+#0 C:\xampp\htdocs\celticpet\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\celticpet\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\celticpet\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-09-11T20:56:41+00:00 CRITICAL Uncaught Error: Call to undefined function do_shortode() in C:\xampp\htdocs\celticpet\wp-content\themes\celtictreats\page-beef.php:10
+Stack trace:
+#0 C:\xampp\htdocs\celticpet\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\celticpet\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\celticpet\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+

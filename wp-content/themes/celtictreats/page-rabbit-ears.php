@@ -5,7 +5,7 @@
 		<span class="breadcrumps"><?php the_breadcrumb(); ?></span>
 	</div>
 	<div class="col-md-5 col-md-offset-0">
-		<h1 class="contact">Chicken</h1>
+		<h1 class="contact">Rabbit</h1>
 	</div>
 	<div class="clearfix"></div>
 </div>
@@ -27,4 +27,4 @@
 	</div>
 </section>
 
-<?php get_footer(); ?>
+<?php get_footer(); ?> 	

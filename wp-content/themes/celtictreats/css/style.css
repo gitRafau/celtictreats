@@ -214,7 +214,11 @@ div.naslider.menu{
 }
 
 ul.nav{
-  margin-top: 1.5em;
+  margin-top: .5em;
+}
+
+ul.nav:last-child{
+  margin-top: 0;
 }
 
 .navbar-nav>li>a{
@@ -228,6 +232,8 @@ ul.nav{
   font-family: inherit;
   font-size: .8em;
 }
+
+
 
 .btn-warning{
   background-color: #816741;
@@ -515,4 +521,21 @@ p.cat_name{
   bottom: 1px;
   text-align: center;
   width: 100%;
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+
+
+/* woocommerce */
+
+.woocommerce a.button, .woocommerce button.button{
+  display: none;
 }

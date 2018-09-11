@@ -85,3 +85,44 @@ function the_breadcrumb() {
 */
 ?>
 
+<?php
+
+function woo_idoneo_tab_content() {
+    // Check that plugin is active, if not we exit.
+    if( ! is_plugin_active( 'taxonomy-images/taxonomy-images.php' ) ) return;
+
+    $taxonomy = 'product_tag';
+    $post_id = get_the_ID();
+    $terms = wp_get_post_terms( $post_id, $taxonomy ); // Terms for this post
+    $custom_taxonomy_images = get_option( 'taxonomy_image_plugin' ); // Plugin images data
+
+    if ( empty( $terms ) ) return; // If no terms found, we exit.
+
+    ## -- HTML Output below -- ##
+
+    echo '<div class="container">';
+    // Loop through each term in this post for the defined taxonomy
+    foreach ( $terms as $term ) {
+        $attachment_id = $custom_taxonomy_images[intval($term->term_id)]; // Get image Attachement ID
+        $image = wp_get_attachment_image( $attachment_id, 'medium' ); // Get image to be displayed
+        $url = get_term_link( $term->term_id, $taxonomy ); // Get term URL
+        ?>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <div class="card-img-top">
+                    <a href="<?php echo $url; ?>"><?php echo $image; ?></a>
+                    </div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <a class="btn btn-primary" href="<?php echo $url; ?>"><?php echo $term->name; ?></a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <?php
+    }
+    echo '</div>';
+}
+
+?>
+
