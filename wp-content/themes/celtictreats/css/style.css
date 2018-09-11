@@ -327,7 +327,7 @@ section.category{
   height: auto;
 }
 
-section.category>h1{ 
+section.category h1{ 
   padding-top: 5em; 
   color: #816741;
   
@@ -355,7 +355,11 @@ div.meat{
   margin-top: 1em;
   background-color: #b3a48d;
   width: auto;
+}
 
+.meat img{
+  opacity: 0.4;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 div.subfooter{
@@ -424,8 +428,8 @@ h1.contact{
     color: #6d5531;
     font-weight: bold;
     text-transform: none;
-    margin-top: -1.2em;
-    margin-bottom: -1.2em;   
+    margin-top: -.5em;
+    margin-bottom: -.5em;   
     text-align: center;
     margin-left: 1em;
 }
@@ -435,8 +439,8 @@ h1.beef, .chicken, .pork, .rabbit{
     color: #6d5531;
     font-weight: bold;
     text-transform: none;
-    margin-top: -1em;
-    margin-bottom: -1em;   
+   margin-top: -.5em;
+    margin-bottom: -.5em; 
     text-align: center;
     margin-left: 1em;
 }
@@ -517,10 +521,10 @@ p.cat_name{
   position: absolute;  
   font-family: inherit;
   font-size: 2em;
-  color: red;
+  color: #fff;
   bottom: 1px;
   text-align: center;
-  width: 100%;
+  width: 70%;
 }
 
 .navbar-nav {
