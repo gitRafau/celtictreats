@@ -77,7 +77,7 @@
 		            <li><a href="<?= site_url('start');?>">Buy</a></li>
 		            <li><a href="<?= site_url('contact');?>">Contact</a></li>
 		            <li>
-		            	<button class="btn btn-block">
+		            	<button class="btn btn-block" style="background-color: #000;">
 		            		<img src="<?php echo get_theme_file_uri('/img/phone_icon.png'); ?>" alt="Słuchawka telefonu w kolorze białym" height="40">
 		            		<span>Order Now</span>
 		            		<span>+ 353 (0) 87 935 60 20</span>
