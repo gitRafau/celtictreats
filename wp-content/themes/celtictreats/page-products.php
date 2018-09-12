@@ -5,7 +5,7 @@
 	<div class="col-md-3 bread_box">
 		<span class="breadcrumps"><?php the_breadcrumb(); ?></span>
 	</div>
-	<div class="col-md-6 col-md-offset-0">
+	<div class="col-md-5">
 		<h1 class="contact">Wszystkie produkty</h1>
 	</div>
 	<div class="clearfix"></div>
