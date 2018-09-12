@@ -25,8 +25,8 @@
 		        </div>
 		        <div class="collapse navbar-collapse">
 		          <ul class="nav navbar-nav">
-		            <li class="active"><a href="#">Home</a></li>		            
-					<li><a href="#about">About Us</a></li>
+		            <li class="active"><a href="<?= site_url('start');?>">Home</a></li>		            
+					<li><a href="<?= site_url('about-us'); ?>">About Us</a></li>
         			
 
 		             <li class="dropdown">
@@ -80,19 +80,19 @@
 			            <li><a href="#">One more separated link</a></li>
 			          </ul>
         			</li>
-		            <li><a href="#about">Buy</a></li>
-		            <li><a href="#about">Contact</a></li>
+		            <li><a href="<?= site_url('start');?>">Buy</a></li>
+		            <li><a href="<?= site_url('contact');?>">Contact</a></li>
 		      
 		          </ul>
 		            <ul class="nav navbar-nav">
 		            <li>
-		            	
+		            	<a href="+ 353 (0) 87 935 60 20">
 		            	<button class="navbar-nav pull-right btn-lg btn-block">
 		            		<img src="<?php echo get_theme_file_uri('/img/phone_icon.png'); ?>" alt="Słuchawka telefonu w kolorze białym" height="40">
 		            		<span>Order Now</span>
 		            		<span>+ 353 (0) 87 935 60 20</span>
 		            	</button>
-			            
+			            </a>
 			        </li>
 		          </ul>
 		        </div>

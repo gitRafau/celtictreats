@@ -1,0 +1,9 @@
+2018-09-12T12:05:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_tag(), 0 passed in C:\xampp\htdocs\celtictreats\wp-content\themes\celtictreats\page-beef.php on line 16 and at least 1 expected in C:\xampp\htdocs\celtictreats\wp-includes\category.php:307
+Stack trace:
+#0 C:\xampp\htdocs\celtictreats\wp-content\themes\celtictreats\page-beef.php(16): get_tag()
+#1 C:\xampp\htdocs\celtictreats\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\celtictreats\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\celtictreats\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown
+

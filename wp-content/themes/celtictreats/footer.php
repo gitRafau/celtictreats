@@ -18,7 +18,7 @@
 				<img src="<?php echo get_theme_file_uri('img/logo_nav.png'); ?>" alt="Logo Celtic Treats" height="180">
 			</a>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 col-lg-offset-1">
+		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 col-lg-offset-1">
 				<p class="text-left">
 				P: + 353 (0) 87 935 60
 				</p> 
@@ -37,7 +37,7 @@
 			</p>
 			</p>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-3 col-lg-offset-1">
+		<div class="col-xs-12 col-sm-4 col-md-2 col-lg-3 col-lg-offset-1">
 			<p class="text-left ware">
 				Warehouse:
 			</p>
@@ -51,7 +51,7 @@
 				Limerick
 			</p>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
 			<div class="phone">
 				<img src="<?php echo get_theme_file_uri('img/phone_icon.png'); ?>" alt="">
 				<p>Order Now</p>

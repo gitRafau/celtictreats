@@ -264,6 +264,21 @@ section.topproducts{
   height: auto;
 }
 
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    padding: 0em 1em;
+    font-size: 18px;
+}
+
+.btn-brown{
+  background-color: #7a6846;
+  color: #fff;
+}
+
+
+
 section .topproducts > h1{  
   color: #816741;
   margin-left: 2em;
@@ -312,7 +327,7 @@ h5.card-title, p.card-text{
 
 article.test{
   height: auto;
-  padding: 1em 0 0em;
+  padding: 4em 0 0em;
 }
 
 div.jumbotron{
@@ -665,28 +680,43 @@ div.pad{
     line-height: 1.5em;
   }
 
+  div.col-xs-12{
+    padding-top: 1em;
+  }  
+}
 
+@media (max-width: 587px){
+
+  div.parallax{
+    height: auto;
+  }
+
+ div.parallax img{
+  margin-top: 1em!important;
+   margin: 0 40% auto;
   
-  
+ }
+
+ section{
+  padding-top: 20em;
+ }
+
 }
 
 @media (max-width: 991px){
 
  div.parallax img{
-  margin-top: 1em!important;
+  padding-top: 0em!important;
    margin: 0 45% auto;
-   height: 220px;
- }
-
-}
-
-@media (max-width: 587px){
-
- div.parallax img{
-  padding-top: 1em!important;
-   margin: 0 45% auto;
-   height: 160px;
+   height: 180px;
    padding-bottom: 2em!important;
  }
 
 }
+
+@media (max-width: 1441px){
+  section.mapa{
+    padding-top: 6em;
+  }
+}
+
