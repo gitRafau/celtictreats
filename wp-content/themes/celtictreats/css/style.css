@@ -321,7 +321,7 @@ div.jumbotron p{
     background-size: cover;
 }
 .parallax2 {
-    height: 100%; 
+    height: 70%; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -367,6 +367,7 @@ div.meat{
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
+
 div.subfooter{
   margin-top: 8em;  
   background-position: bottom;
@@ -375,8 +376,8 @@ div.subfooter{
 }
 
 h1{
-  padding-top: .2em;
-  padding-bottom: .3em;
+  padding-top: 1em;
+  
   font-size: 3.2em;
   color: #6d5531;
   font-weight: bold;
@@ -389,23 +390,33 @@ img.petsy{
   margin-top: -120px;
 }
 
-p{
+footer p{
   color: #fff;
   font-weight: bold;
-  font-size: 1.1em;
-  z-index: 999;
-  position: relative;
-  text-transform: uppercase;
+  font-size: 1.3em;
+  z-index: 999;  
+  text-transform: none;
+  margin-bottom: 0em;
+  line-height: 1.2em;
 }
+
+p.text-left.ware{
+  line-height: 1.5em;
+}
+
 
 p a:hover{
   text-decoration: none;
 }
 
+footer.col-lg-2{
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
 div.phone{  
   background-color: #816741;
   border-radius: .5em .5em .5em .5em;
-
 }
 
 div.phone img{
@@ -416,8 +427,19 @@ div.phone img{
 }
 
 div.phone p{
-  font-size: 1.5em;
+  font-size: 2.5em;
   margin-bottom: -.5em;
+  text-align: center;
+}
+
+
+div.phone p:last-child{
+  font-size: 1.2em;
+  margin-bottom: -.5em;
+  text-align: center;
+  margin-top: .6em;
+  padding-top: .5em;
+  padding-bottom: 1em;
 }
 
 div.phone span{
@@ -441,8 +463,6 @@ h1.contact{
     display: flex;
    justify-content: center;
 }
-
-
 
 .bread_box{
   padding: 1em 0 1em 1em;
@@ -535,7 +555,14 @@ p.cat_name{
     text-align: center;
 }
 
+footer.container-fluid{
+  height: auto
+}
 
+div.row{
+  padding-bottom: 2.5em;
+
+}
 
 /* woocommerce */
 
@@ -544,9 +571,12 @@ p.cat_name{
 }
 
 @media(max-width: 1781px){
-ul.navbar-nav:first-child{
-  padding-left:0em;
-}
+  ul.navbar-nav:first-child{
+    padding-left:0em;
+  }
+  div.row{
+      background-repeat: repeat-y!important;
+    }
 }
 
 @media(max-width: 857px){
@@ -558,19 +588,33 @@ ul.navbar-nav:first-child{
   .bread_box{
   padding: 1em 0 1em 1em;
   text-align: center;
-}
+  }
 
-h1.contact{
-   font-size: 3.6em;
-    color: #6d5531;
-    font-weight: bold;
-    text-transform: none;
-    padding-top: .3em;
-    margin-top: -.5em;
-    margin-bottom: -1.3em;   
-    text-align: center;
-    margin-left: 0em;
-    display: flex;
-   justify-content: center;
-}
+  h1.contact{
+     font-size: 3.6em;
+      color: #6d5531;
+      font-weight: bold;
+      text-transform: none;
+      padding-top: .3em;
+      margin-top: -.5em;
+      margin-bottom: -1.3em;   
+      text-align: center;
+      margin-left: 0em;
+      display: flex;
+     justify-content: center;
+  }
+
+  p.text-left{
+   text-align: center;
+  }
+
+  p.text-left.ware{
+    line-height: 1.5em;
+  }
+
+
+  div.row{
+    background-repeat: repeat-y!important;
+  }
+
 }

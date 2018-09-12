@@ -4,44 +4,61 @@
 	
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-4 col-lg-5 col-lg-offset-4">
-			<img height="400" class="petsy img-responsive" src="<?php echo get_theme_file_uri('/img/petsy.png'); ?>" alt="">
+			<img height="400" class="petsy img-responsive" src="<?php echo get_theme_file_uri('/img/petsy.png'); ?>" alt="" class="img-responsive">
 		</div>
 	</div>
 </div>
 
 
 
-<footer>
-	<div class="row" style="background-image: url('<?php echo get_theme_file_uri('/img/footer_bones.png'); ?>'); height: auto; padding: 2em 0 0em; background-repeat: no-repeat;">
-		<div class="col-xs-6 col-xs-offset-4 col-sm-6 col-md-3 col-lg-1 col-lg-offset-1">
+<footer class="container-fluid">
+	<div class="row" style="background-image: url('<?php echo get_theme_file_uri('/img/footer_bones.png'); ?>'); height: auto; padding: 2em 0 2em; background-repeat: no-repeat;">
+		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-3 col-lg-1 col-lg-offset-1">
 			<a href="">
-				<img src="<?php echo get_theme_file_uri('img/logo_nav.png'); ?>" alt="">
+				<img src="<?php echo get_theme_file_uri('img/logo_nav.png'); ?>" alt="Logo Celtic Treats" height="180">
 			</a>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 col-lg-offset-1">
-			<p>
-				P: + 353 (0) 87 935 60 20<br/>
-				30 Glendalez<br/>
-				Old Singland Road<br/>
+				<p class="text-left">
+				P: + 353 (0) 87 935 60
+				</p> 
+				<p class="text-left">
+				30 Glendalez
+				</p>
+				<p class="text-left">
+				Old Singland Road
+			</p>
+			<p class="text-left">
 				Castletroy<br/>
-				V94 DT9Y<br/>
+				V94 DT9Y
+			</p>
+			<p class="text-left">
 				Limerick, Irleand
 			</p>
+			</p>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 col-lg-offset-1">
-			<p>
-				Warehouse: <br/>
-				Unit 10A, EastLink Business Park,<br/>
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-3 col-lg-offset-1">
+			<p class="text-left ware">
+				Warehouse:
+			</p>
+			<p class="text-left ware">
+				Unit 10A, EastLink Business Park,
+			</p>
+			<p class="text-left ware">
 				Ballysimon Road,
+			</p>
+			<p class="text-left ware">
 				Limerick
 			</p>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-lg-offset-1">
+		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 			<div class="phone">
 				<img src="<?php echo get_theme_file_uri('img/phone_icon.png'); ?>" alt="">
 				<p>Order Now</p>
-				<span>+ 353 (0) 87 935 60 20</span>
+				<p>+ 353 (0) 87 935 60 20</p>
 			</div>
+
+
 		</div>
 	</div>	
 </footer>			
