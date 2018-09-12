@@ -238,6 +238,19 @@ ul.nav:last-child{
   font-family: inherit;
   font-size: 1em;
   font-weight: 600;
+  
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover{
+  background-color: #816741;
+}
+
+li.dropdown, li.dropdown-open{
+  color: #816741;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 600;
+  
 }
 
 .btn-warning{
@@ -251,7 +264,16 @@ section.topproducts{
   height: auto;
 }
 
-section .topproducts >h1{  
+section .topproducts > h1{  
+  color: #816741;
+  margin-left: 2em;
+  font-weight: 600;
+  text-align: left;
+  text-transform: none;
+  font-size: 2em;
+}
+
+h1.top{
   color: #816741;
   margin-left: 2em;
   font-weight: 600;
@@ -262,7 +284,8 @@ section .topproducts >h1{
 
 
 section.topproducts>.row{
-  padding-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 
@@ -289,11 +312,12 @@ h5.card-title, p.card-text{
 
 article.test{
   height: auto;
-  padding: 1em 0 1em;
+  padding: 1em 0 0em;
 }
 
 div.jumbotron{
   background-color: #fff;
+  padding: 0;
 }
 
 .logojumbo{
@@ -303,15 +327,22 @@ div.jumbotron{
 
 
 div.jumbotron p{
-  font-size: .9em;
+  font-size: 1.1em;
   color: #816741;
   text-align: center;
   font-weight: bold;
+}
 
+
+.jumbotron p:nth-child(5){
+  padding-top: 1em;
+  font-size: .8em;
 }
 
 
 /* Paralaxa */
+
+
 
 .parallax {
     height: 50%; 
@@ -319,7 +350,13 @@ div.jumbotron p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+.parallax-curtain{
+    height:100%;
+    background:rgba(0,0,0,0.7);
 }
+
 .parallax2 {
     height: 70%; 
     background-attachment: fixed;
@@ -332,10 +369,10 @@ section.category{
   height: auto;
 }
 
-section.category h1{ 
-  padding-top: 5em; 
-  color: #816741;
-  
+section.category h1{
+padding-top: 1em; 
+  padding-bottom: 1em; 
+  color: #816741;  
   font-weight: 600;
 }
 
@@ -349,6 +386,17 @@ div.brc p{
   font-size: 1.5em;
   color: #fff;
   font-weight: bolder;
+}
+
+.brc h2{
+  margin-top: 5em;
+  color: #fff;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 1.6em;
+  text-align: center;
+
+
 }
 
 div.cat_paralax{
@@ -559,8 +607,8 @@ footer.container-fluid{
   height: auto
 }
 
-div.row{
-  padding-bottom: 2.5em;
+div.pad{
+  padding-bottom: 2.5em!important;
 
 }
 
@@ -576,6 +624,11 @@ div.row{
   }
   div.row{
       background-repeat: repeat-y!important;
+    }
+
+    ul.navbar-nav:last-child{
+      margin-top: 1em;
+      margin-left: 3em;
     }
 }
 
@@ -613,8 +666,27 @@ div.row{
   }
 
 
-  div.row{
-    background-repeat: repeat-y!important;
-  }
+  
+  
+}
+
+@media (max-width: 991px){
+
+ div.parallax img{
+  margin-top: 1em!important;
+   margin: 0 45% auto;
+   height: 220px;
+ }
+
+}
+
+@media (max-width: 587px){
+
+ div.parallax img{
+  padding-top: 1em!important;
+   margin: 0 45% auto;
+   height: 160px;
+   padding-bottom: 2em!important;
+ }
 
 }

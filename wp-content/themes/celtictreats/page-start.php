@@ -77,14 +77,14 @@
 			<div class="jumbotron">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<img class="img-responsive" height="150" src="<?= the_field('image');?>" alt="">
+						<img class="img-responsive" style="height: 500px;" src="<?= the_field('jumboimage');?>" alt="">
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<div class="logojumbo">
-							<img height="100" src="<?= the_field('logo');?>" alt="">
+							<img height="100" src="<?= the_field('jumblogo');?>" style="padding-top: 1em;" alt="Logo Celtic Treats">
 						</div>
-						
-						<p><?= the_field('text');?></p>
+						<p><?= the_field('jumbohead'); ?></p>
+						<p><?= the_field('jumbotext');?></p>
  
 					</div>
 				</div>
@@ -94,7 +94,7 @@
 </article>
 
 <section class="topproducts">
-	<h1>Top Products:</h1>
+	<h1 class="top">Top Products:</h1>
 	<div class="row">		
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-2 col-md-offset-1 col-lg-2">
 			<div class="card image">
@@ -147,14 +147,15 @@
 </section>
 
 <div class="parallax" style="background-image: url('<?php echo get_theme_file_uri('/img/paralax_dog.jpg'); ?>');">
+	<div class="parallax-curtain">
 	<div class="row">
-		<div class="col-md-6 col-md-offset-3 brc">
-			<p>All products contain no artificial additives<br/> 
-			and conform with all BRC Quality Standards</p>
-
-			<!--<img height="110" src="<?php //echo get_theme_file_uri('/img/brc_food.png'); ?>" alt="">-->
-		
+		<div class="col-md-5 col-md-offset-3 brc">
+			<h2>All products contain no artificial additives dnd conform with all BRC Quality Standards.</h2>
 		</div>
+		<div class="col-md-2 col-md-offset-0">
+			<img height="300" src="<?php echo get_theme_file_uri('/img/brc_food.png'); ?>" alt="" style="padding-top: 6em;">
+		</div>		
+	</div>
 	</div>
 </div>
 
