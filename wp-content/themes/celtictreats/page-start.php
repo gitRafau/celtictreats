@@ -1,4 +1,11 @@
-	<?php get_header();?>
+<?php get_header();?>
+
+<?php
+
+include('template-parts/slider.php');
+
+?>
+
 
 <section>
 	<header class="topproducts">

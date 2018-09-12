@@ -1,24 +1,18 @@
-<?php
-
-get_header(); ?>
-
-<nav class="container-fluid" style="background-image: url('<?php echo get_theme_file_uri('/img/nav_background.png'); ?>'); height: 230px; background-repeat: no-repeat; background-position: bottom;">
+<nav class="container-fluid mobilehide">
 		<div class="row">
-
-			
-		 		 <div class="container-fluid">
-		        <div class="navbar-header">
-		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		   
+				<header class="menu">					
+				<div class="navbar-header">
+		          <button type="button" class="navbar-toggle" style="padding-left: 9em;" data-toggle="collapse" data-target=".navbar-collapse">
 		            <img src="<?php echo get_theme_file_uri('/img/hamburgermenu.png'); ?>" alt="Logo Celtic Treats" class="img-responsive" style="padding-top: 1em;">
 		          </button>
 		          <a class="navbar-brand" href="<?=site_url('start');?>">
 		            	<img src="<?php echo get_theme_file_uri('/img/celtic_logo.png'); ?>" alt="Logo Celtic Treats" height="70" class="img-responsive">
 		            </a>
 		        </div>
-		        <div class="collapse navbar-collapse">
+
+					<div class="collapse navbar-collapse">
 		          <ul class="nav navbar-nav">
-		          	
-			
 		            <li class="active"><a href="<?= site_url('start');?>">Home</a></li>		            
 					<li><a href="<?= site_url('about-us'); ?>">About Us</a></li>
         			
@@ -85,17 +79,37 @@ get_header(); ?>
 		            </li>		      
 		          </ul>
 		            <ul class="clearfix"></ul>
-		                  
-		          
+		            
+		             <div class="naslider menu">
+						<img src="<?php echo get_theme_file_uri('img/nasliderze.png');?>" class="img-responsive" alt="">
+					</div>
+			       
+		         
 		        </div>
+				</header>
+
+				
+		        <!-- START SLICK SLIDER -->
+				<div class="slider-wrapper">
+				  <div class="slider responsive lazy">
+				    <div>
+				      	<div class="image"><img class="slick-slider-img" alt="alt" 
+				      	src="<?php echo get_theme_file_uri('img/sliderdog1.png'); ?>" /></div>
+				    	</div>
+				    	<div class="image"><img class="slick-slider-img" alt="alt" 
+				      	src="<?php echo get_theme_file_uri('img/sliderdog2.png'); ?>" /></div>
+				    	</div>
+				    </div>
+				  <div class="slider-progress">
+				    <div class="progress"></div>
+				  </div>
+
+				</div>
+				<!-- END SLICK SLIDER -->		        
 		    </div>
-		      </div>
-		</div>
-			
 </nav>
 
-
-<nav class="container-fluid formobile" style="visibility: hidden;" style="background-image: url('<?php echo get_theme_file_uri('/img/nav_background.png'); ?>'); height: 230px; background-repeat: no-repeat; background-position: bottom;">
+<nav class="container-fluid formobile" style="background-image: url('<?php echo get_theme_file_uri('/img/nav_background.png'); ?>'); height: 230px; background-repeat: no-repeat; background-position: bottom;">
 		<div class="row">			
 		 		 <div class="container-fluid">
 		        <div class="navbar-header">
@@ -125,24 +139,12 @@ get_header(); ?>
 		 </div>
 </nav>
 
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
 
-	<section class="container-fluid coode404">
-		<div class="row">
-			<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-
-				<div class="jumbotron">
-					<div class="content">
-						<h1 class="page-title text-center"><?php _e( 'Oops! That page can&rsquo;t be found.', 'twentyfifteen' ); ?></h1>
-						<p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'twentyfifteen' ); ?></p>
-
-						<div class="text-center">
-						<?php get_search_form(); ?>
-					</div>
-					</div>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</section>
-
-<?php get_footer(); ?>
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
