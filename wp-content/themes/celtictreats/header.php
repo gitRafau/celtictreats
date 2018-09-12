@@ -12,19 +12,15 @@
 	</head>
 	<body>
 			
-		<main class="container-fluid" style="background-image: url('<?php echo get_theme_file_uri('/img/nav_background.png'); ?>'); height: 200px; background-repeat: no-repeat; background-position: bottom;">
+		<nav class="container-fluid" style="background-image: url('<?php echo get_theme_file_uri('/img/nav_background.png'); ?>'); height: 230px; background-repeat: no-repeat; background-position: bottom;">
 		<div class="row">
-		 <div class="container">
+		 <div class="container-fluid">
 		        <div class="navbar-header">
 		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		            <span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
+		            <img src="<?php echo get_theme_file_uri('/img/hamburgermenu.png'); ?>" alt="Logo Celtic Treats" class="img-responsive" style="padding-top: 1em;">
 		          </button>
-		          <a class="navbar-brand"
-		            href="<?=site_url('start');?>">
-		            	<img src="<?php echo get_theme_file_uri('/img/celtic_logo.png'); ?>" alt="Logo Celtic Treats" height="70">
+		          <a class="navbar-brand" href="<?=site_url('start');?>">
+		            	<img src="<?php echo get_theme_file_uri('/img/celtic_logo.png'); ?>" alt="Logo Celtic Treats" height="70" class="img-responsive">
 		            </a>
 		        </div>
 		        <div class="collapse navbar-collapse">
@@ -39,16 +35,23 @@
 		            <li><a href="#about">Contact</a></li>
 		      
 		          </ul>
-		            <ul class="nav navbar-nav" style="float: right">
-		            <li><a href="#contact" class="navbar-nav pull-right">
-		            	<button class="btn btn-defaut">Order Now +353 (0) 087 395 60 20</button>
-		            </a></li>
+		            <ul class="nav navbar-nav">
+		            <li>
+		            	
+		            	<button class="navbar-nav pull-right btn-lg btn-block">
+		            		<img src="<?php echo get_theme_file_uri('/img/phone_icon.png'); ?>" alt="Słuchawka telefonu w kolorze białym" height="40">
+		            		<span>Order Now</span>
+		            		<span>+ 353 (0) 87 935 60 20</span>
+		            	</button>
+			            
+			        </li>
 		          </ul>
 		        </div>
+		    </div>
 		      </div>
 		</div>
 			
-</main>
+</nav>
 
 
 
