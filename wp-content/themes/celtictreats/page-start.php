@@ -13,26 +13,34 @@ include('template-parts/slider.php');
 	</header>
 	<div class="row">		
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-2 col-md-offset-1 col-lg-2">
+			 <a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
 			<div class="card image">
 			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-danger">Top</div>
 			  <div class="card-body">
 			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			    <p class="card-text">Bone Natural</p>			    
+			   
+			    <p class="card-text">Bone Natural</p>		
+			    	    
 			  </div>
 			</div>
+			</a>
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0  col-lg-2">
+			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
 			<div class="card image ">
 			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="card-body">
 			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
 			    <p class="card-text">Bone Natural</p>
 			    </div>	
+
 			</div>
+		</a>
 			
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
+			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
 			<div class="card image">
 			 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-brown">Healty</div>
@@ -41,8 +49,10 @@ include('template-parts/slider.php');
 			    <p class="card-text">Bone Natural</p>	
 			  </div>
 			</div>
+		</a>
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
+			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
 			<div class="card image">
 			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-success">New</div>
@@ -51,8 +61,10 @@ include('template-parts/slider.php');
 			    <p class="card-text">Bone Natural</p>	
 			  </div>
 			</div>
+		</a>
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
+			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
 			<div class="card image">
 			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-danger">Top</div>
@@ -61,6 +73,7 @@ include('template-parts/slider.php');
 			    <p class="card-text">Bone Natural</p>	
 			  </div>
 			</div>
+		</a>
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -104,30 +117,40 @@ include('template-parts/slider.php');
 	</div>
 </article>
 
-<section class="topproducts">
-	<h1 class="top">Top Products:</h1>
+<section>
+	<header class="topproducts">
+		<h1>Top Products:</h1>
+	</header>
 	<div class="row">		
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-2 col-md-offset-1 col-lg-2">
+			 <a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
 			<div class="card image">
 			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-danger">Top</div>
 			  <div class="card-body">
 			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			    <p class="card-text">Bone Natural</p>			    
+			   
+			    <p class="card-text">Bone Natural</p>		
+			    	    
 			  </div>
 			</div>
+			</a>
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0  col-lg-2">
+			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
 			<div class="card image ">
 			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="card-body">
 			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
 			    <p class="card-text">Bone Natural</p>
 			    </div>	
+
 			</div>
+		</a>
 			
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
+			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
 			<div class="card image">
 			 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-brown">Healty</div>
@@ -136,8 +159,10 @@ include('template-parts/slider.php');
 			    <p class="card-text">Bone Natural</p>	
 			  </div>
 			</div>
+		</a>
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
+			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
 			<div class="card image">
 			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-success">New</div>
@@ -146,8 +171,10 @@ include('template-parts/slider.php');
 			    <p class="card-text">Bone Natural</p>	
 			  </div>
 			</div>
+		</a>
 		</div>
 		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
+			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
 			<div class="card image">
 			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-danger">Top</div>
@@ -156,11 +183,11 @@ include('template-parts/slider.php');
 			    <p class="card-text">Bone Natural</p>	
 			  </div>
 			</div>
+		</a>
 		</div>
 		<div class="clearfix"></div>
 	</div>
 </section>
-
 <div class="parallax" style="background-image: url('<?php echo get_theme_file_uri('/img/paralax_dog.jpg'); ?>');">
 	<div class="parallax-curtain">
 	<div class="row">

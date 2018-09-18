@@ -34,6 +34,17 @@ div.col-md-12{
   z-index: 999;
 }
 
+button.navbar-toggle{
+  margin-top: 1em;
+}
+
+
+
+div.collapse.navbar-collapse{
+    width: 100%;
+    margin: 0;
+}
+
 
 .navbar-link, .navbar-link:hover{
   color: #fff;
@@ -41,10 +52,10 @@ div.col-md-12{
   text-transform: none;
   font-size: .8em;
 }
-ul.navbar-nav:first-child{
-  padding-left:20em;
-}
 
+header.menu{
+  width: 100%;
+}
 /*button tel*/
 
 
@@ -58,6 +69,10 @@ button.navbar-nav{
   font-weight: bold;
 }
 
+.btn{
+  padding: 6px 40px;
+}
+
 .btn-block{
   background-color: #816741;
 }
@@ -65,7 +80,7 @@ button.navbar-nav{
 
 .btn-block span{
   color: #fff;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -225,8 +240,14 @@ nav{
 }
 
 div.naslider.menu{
-  margin: 0 30% auto;
-  
+    margin: 10% 30% auto;
+}
+
+div.naslider.menu img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 ul.nav{
@@ -626,7 +647,7 @@ p.cat_name{
 }
 
 .navbar-collapse {
-    text-align: center;
+    text-align: left;
 }
 
 footer.container-fluid{
@@ -638,19 +659,23 @@ div.pad{
 
 }
 
+div.collapse .navbar-collapse{
+  margin: 0;
+  padding: 0;
+}
+
 /* woocommerce */
 
 .woocommerce a.button, .woocommerce button.button{
   display: none;
 }
 
-@media(max-width: 1781px){
-  ul.navbar-nav:first-child{
-    padding-left: 19em;
-  }
 
+@media(max-width: 1781px){
+
+  
   ul.nav{
-    margin-top: -1em;
+   
     padding-top: 0;
   }
 
@@ -704,6 +729,11 @@ div.pad{
 
 @media (max-width: 587px){
 
+  .navbar-brand img {
+    height: 110px;
+    margin-left: .5em;
+    }
+
   div.slick-slider, .slider-progress{
     display: none!important;
   }
@@ -727,32 +757,47 @@ div.pad{
  }
 
  section{
-  padding-top: 0em;
+  padding-top: 5em;
  }
 
 }
 
 @media(min-width: 588px){
+
+.navbar-brand img {
+    height: 110px;
+    margin-left: .5em;
+    }
+
   .formobile{
     display: none!important;
   }
+
+   section{
+  padding-top: 5em;
+ }
+
+ 
 }
 
 @media (max-width: 991px){  
 
  div.parallax img{
   padding-top: 0em!important;
-   margin: 0 45% auto;
+   margin: 0 40% auto;
    height: 180px;
    padding-bottom: 2em!important;
  }
 
 }
 
+
 @media (max-width: 1441px){
   section.mapa{
     padding-top: 6em;
   }
+
+  
 }
 
 .sidenav {
@@ -799,4 +844,35 @@ div.pad{
 
 section.products{
   padding-top: 3em;
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+
+  .nav.navbar-nav {
+      position: absolute;
+      left: 102px;
+      padding-left: 3em;
+  }
+}
+
+@media (min-width: 992px){
+  .nav.navbar-nav{
+    position: absolute;
+    right: 10px;    
+  }
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background-color: rgba(0,0,0, .3);
+    color: #fff;
+}
+
+ul.dropdown-menu{
+  background-color: #5a482d;
+  
+}
+
+ul.dropdown-menu>li>a{
+  color: #fff;
+  text-align: justify;
 }

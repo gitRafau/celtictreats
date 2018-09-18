@@ -17,6 +17,7 @@
 		        <div class="collapse navbar-collapse">
 		          <ul class="nav navbar-nav">
 		          	
+		          
 			
 		            <li class="active"><a href="<?= site_url('start');?>">Home</a></li>		            
 					<li><a href="<?= site_url('about-us'); ?>">About Us</a></li>
@@ -24,59 +25,70 @@
 
 		             <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Beef</a>
-			          <ul class="dropdown-menu">
-			            <li><a href="#">Action</a></li>
-			            <li><a href="#">Another action</a></li>
-			            <li><a href="#">Something else here</a></li>
+			          <ul class="dropdown-menu">			            
+			            <li><a href="#">Beef Ears</a></li>
 			            <li role="separator" class="divider"></li>
-			            <li><a href="#">Separated link</a></li>
+			            <li><a href="#">Beef Gullet Flat</a></li>
 			            <li role="separator" class="divider"></li>
-			            <li><a href="#">One more separated link</a></li>
+			            <li><a href="#">Beef Gullet Round</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Beef Liver</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Beef Lungs</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Beef Mix</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Beef Skin</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Beef Trochea Cut Peaces</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Beef Trochea 2 Pieces</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Beef Puzzle</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Calf Ears</a></li>
 			          </ul>
         			</li>
 
 		             <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chicken</a>
 			          <ul class="dropdown-menu">
-			            <li><a href="#">Action</a></li>
-			            <li><a href="#">Another action</a></li>
-			            <li><a href="#">Something else here</a></li>
+			            <li><a href="#">Chicken Bits</a></li>
 			            <li role="separator" class="divider"></li>
-			            <li><a href="#">Separated link</a></li>
+			            <li><a href="#">Chicken Necks</a></li>
 			            <li role="separator" class="divider"></li>
-			            <li><a href="#">One more separated link</a></li>
+			            <li><a href="#">Chicken Feet</a></li>
 			          </ul>
         			</li>
 
 		             <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pork</a>
 			          <ul class="dropdown-menu">
-			            <li><a href="#">Action</a></li>
-			            <li><a href="#">Another action</a></li>
-			            <li><a href="#">Something else here</a></li>
+			             <li><a href="#">Pork Bones</a></li>
 			            <li role="separator" class="divider"></li>
-			            <li><a href="#">Separated link</a></li>
+			            <li><a href="#">Pork Ears</a></li>
 			            <li role="separator" class="divider"></li>
-			            <li><a href="#">One more separated link</a></li>
+			            <li><a href="#">Pork Middle Ears</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Pork Mix</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Pork Roled Skin</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Pork Twiglets</a></li>
 			          </ul>
         			</li>
 
 		             <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rabbit</a>
 			          <ul class="dropdown-menu">
-			            <li><a href="#">Action</a></li>
-			            <li><a href="#">Another action</a></li>
-			            <li><a href="#">Something else here</a></li>
-			            <li role="separator" class="divider"></li>
-			            <li><a href="#">Separated link</a></li>
-			            <li role="separator" class="divider"></li>
-			            <li><a href="#">One more separated link</a></li>
+			            <li><a href="<?= site_url('products/rabbit/rabbit-ears');?>">Rabbit Ears</a></li>
+			            
 			          </ul>
         			</li>
 		            <li><a href="<?= site_url('start');?>">Buy</a></li>
 		            <li><a href="<?= site_url('contact');?>">Contact</a></li>
 		            <li>
-		            			            	<button class="btn btn-block" style="background-color: #000;">
+		            	<button class="btn btn-block" style="background-color: #000;">
 		            		<img src="<?php echo get_theme_file_uri('/img/phone_icon.png'); ?>" alt="Słuchawka telefonu w kolorze białym" height="40">
 		            		<span>Order Now</span>
 		            		<span>+ 353 (0) 87 935 60 20</span>
