@@ -8,7 +8,7 @@ body{
   margin: 0;
   padding: 0;
 	font-size: 20px;
-	font-family: 'Calibri', sans-serif;
+	font-family: 'Raleway', sans-serif;
   height: 100%;
   
 }
@@ -199,20 +199,6 @@ button.navbar-nav img{
   width: 100%;
 }
 
-.slick-slide .image {
-  /*height: 180px;*/
-}
-
-.slick-slide img {
-  display: block;
-  width: 100%;
-}
-
-.slick-slide img.slick-loading {
-  display: none;
-}
-
-
 .slick-prev{
   display:none!important;
 }
@@ -321,7 +307,7 @@ section .topproducts > h1{
 }
 
 h1.top{
-  color: #816741;
+  color: #816741;  
   margin-left: 2em;
   font-weight: 600;
   text-align: left;
@@ -365,6 +351,7 @@ article.test{
 div.jumbotron{
   background-color: #fff;
   padding: 0;
+  height: auto;
 }
 
 .logojumbo{
@@ -374,10 +361,11 @@ div.jumbotron{
 
 
 div.jumbotron p{
-  font-size: 1.1em;
+  font-size: .9em;
   color: #816741;
   text-align: center;
   font-weight: bold;
+  word-wrap: break-word;
 }
 
 
@@ -417,10 +405,12 @@ section.category{
 }
 
 section.category h1{
-padding-top: 1em; 
+` padding-top: .3em; 
   padding-bottom: 1em; 
   color: #816741;  
   font-weight: 600;
+
+
 }
 
 
@@ -442,6 +432,7 @@ div.brc p{
   text-transform: none;
   font-size: 1.6em;
   text-align: center;
+  margin-bottom: 2em;
 
 
 }
@@ -471,8 +462,6 @@ div.subfooter{
 }
 
 h1{
-  padding-top: 1em;
-  
   font-size: 3.2em;
   color: #6d5531;
   font-weight: bold;
@@ -607,7 +596,7 @@ section.places h5{
 }
 
 article.about{
-  padding: 5em 0 2em;
+  padding: 5em 0 0em;
 }
 
 .about p{
@@ -729,6 +718,19 @@ div.collapse .navbar-collapse{
 
 @media (max-width: 587px){
 
+
+
+  section.category h1{
+  padding-top: .3em; 
+  padding-bottom: 1em; 
+  color: #816741;  
+  font-weight: 600;
+  font-size: 1em;
+
+}
+
+  
+
   .navbar-brand img {
     height: 110px;
     margin-left: .5em;
@@ -757,7 +759,7 @@ div.collapse .navbar-collapse{
  }
 
  section{
-  padding-top: 5em;
+  /*padding-top: 5em;*/
  }
 
 }
@@ -773,14 +775,19 @@ div.collapse .navbar-collapse{
     display: none!important;
   }
 
-   section{
-  padding-top: 5em;
- }
+ 
 
  
 }
 
 @media (max-width: 991px){  
+
+  img.cert{
+    display:none;
+  }
+
+
+
 
  div.parallax img{
   padding-top: 0em!important;
@@ -875,4 +882,94 @@ ul.dropdown-menu{
 ul.dropdown-menu>li>a{
   color: #fff;
   text-align: justify;
+}
+
+
+div#jumbo.col-xs-12.col-sm-12.col-md-6.col-lg-6{
+  margin: 0;
+  padding:0;
+}
+
+div#content.col-xs-12.col-sm-12.col-md-6.col-lg-6{
+  min-height: 485px;
+  max-height: 486px;
+}
+
+div#product2.row{
+  padding-bottom: 2.5em;
+}
+
+h1.product_title.entry-title{
+  font-size: 1.4em;
+  text-transform: capitalize;
+}
+
+.woocommerce-product-details__short-description{
+  background-color: #6d5531;
+  color: #fff;
+  padding: 1em 3em;
+  font-size: .8em;
+  margin-top: 1em;
+}
+
+div.quantity{
+  display: none;
+}
+
+button.single_add_to_cart_button{
+  margin-top: 1em;
+  background-color: #6d5531!important;
+  padding: .5em 3em;  
+  color: #fff; 
+  width: 100%;
+  border: .2em lightgray solid;
+}
+
+section.form{
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@media (max-width: 768px){
+  div.jumbotron p{
+  font-size: .7em;
+  color: #816741;
+  text-align: center;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+}
+
+@media (min-width: 769px) and (max-width: 991px){
+  div.jumbotron p{
+  font-size: 1.1em;
+  color: #816741;
+  text-align: center;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+}
+
+@media (min-width: 992px){
+  div.jumbotron p{  
+  font-size: .9em;
+  color: #816741;
+  text-align: center;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+}
+
+@media (min-width: 1200px){
+  div.jumbotron p{  
+  font-size: .9.5em;
+  color: #816741;
+  text-align: center;
+  font-weight: bold;
+  word-wrap: break-word;
+}
 }

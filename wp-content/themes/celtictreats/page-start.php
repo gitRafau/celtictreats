@@ -1,87 +1,82 @@
 <?php get_header();?>
 
 <?php
-
 include('template-parts/slider.php');
-
 ?>
-
 
 <section>
 	<header class="topproducts">
-		<h1>Top Products:</h1>
+		<h1>New Products:</h1>
 	</header>
 	<div class="row">		
-		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-2 col-md-offset-1 col-lg-2">
-			 <a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
+		<div class="col-xs-9 col-xs-offset-2 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-3 col-lg-2 col-lg-offset-1">
+			 <a href="<?= site_url('/products');?>">
 			<div class="card image">
-			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
+			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/pork_noses.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-danger">Top</div>
 			  <div class="card-body">
-			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			   
-			    <p class="card-text">Bone Natural</p>		
-			    	    
+			    <h5 class="card-title">Category: Pork</h5>
+			       <p class="card-text">Pork Noses</p>		
 			  </div>
 			</div>
 			</a>
 		</div>
-		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0  col-lg-2">
-			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
+		<div class="col-xs-9 col-xs-offset-2 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">	
+			<a href="<?= site_url('/products');?>">
 			<div class="card image ">
 			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="card-body">
-			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			    <p class="card-text">Bone Natural</p>
-			    </div>	
-
+			    <h5 class="card-title">Category: Beef</h5>
+			    <p class="card-text">Pork shoulder bones</p>
+			  </div>	
 			</div>
-		</a>
-			
+			</a>			
 		</div>
-		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
-			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
+		
+		<div class="col-xs-9 col-xs-offset-2 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-3 col-lg-2 col-lg-offset-0">
+			<a href="<?= site_url('/products');?>">
 			<div class="card image">
-			 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
+			 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/pork_legs.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-brown">Healty</div>
 			  <div class="card-body">
-			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			    <p class="card-text">Bone Natural</p>	
+			    <h5 class="card-title">Category: Pork</h5>
+			    <p class="card-text">Pork Legs</p>	
 			  </div>
 			</div>
 		</a>
 		</div>
-		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
-			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
+		<div class="col-xs-9 col-xs-offset-2 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-0 col-lg-2 col-lg-offset-0">
+			<a href="<?= site_url('/products');?>">
 			<div class="card image">
-			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
+			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/lamb_feet.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-success">New</div>
 			  <div class="card-body">
-			   <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			    <p class="card-text">Bone Natural</p>	
+			   <h5 class="card-title">Category: Lamb</h5>
+			    <p class="card-text">Lamb Feet</p>	
 			  </div>
 			</div>
 		</a>
 		</div>
-		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
-			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
+
+		<div class="col-xs-9 col-xs-offset-2 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-3 col-lg-2 col-lg-offset-0">
+			<a href="<?= site_url('/products');?>">
 			<div class="card image">
 			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
 			  <div class="topleft btn-xs btn-danger">Top</div>
 			  <div class="card-body">
-			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			    <p class="card-text">Bone Natural</p>	
+			    <h5 class="card-title">Category: Beef</h5>
+			    <p class="card-text">Beef Cubes</p>	
 			  </div>
 			</div>
 		</a>
 		</div>
-		<div class="clearfix"></div>
+		<div class="clear"></div>
 	</div>
 </section>
 
 <article class="test">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+		<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
 			<?php
 		// Start the loop.
@@ -100,10 +95,10 @@ include('template-parts/slider.php');
 		?>
 			<div class="jumbotron">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<img class="img-responsive" style="height: 500px;" src="<?= the_field('jumboimage');?>" alt="">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="jumbo">
+						<img class="img-responsive" style="height: 486px;" src="<?= the_field('jumboimage');?>" alt="">
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="background-color: #f6ede0;" id="content">
 						<div class="logojumbo">
 							<img height="100" src="<?= the_field('jumblogo');?>" style="padding-top: 1em;" alt="Logo Celtic Treats">
 						</div>
@@ -117,77 +112,7 @@ include('template-parts/slider.php');
 	</div>
 </article>
 
-<section>
-	<header class="topproducts">
-		<h1>Top Products:</h1>
-	</header>
-	<div class="row">		
-		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-2 col-md-offset-1 col-lg-2">
-			 <a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
-			<div class="card image">
-			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
-			  <div class="topleft btn-xs btn-danger">Top</div>
-			  <div class="card-body">
-			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			   
-			    <p class="card-text">Bone Natural</p>		
-			    	    
-			  </div>
-			</div>
-			</a>
-		</div>
-		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0  col-lg-2">
-			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
-			<div class="card image ">
-			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
-			  <div class="card-body">
-			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			    <p class="card-text">Bone Natural</p>
-			    </div>	
 
-			</div>
-		</a>
-			
-		</div>
-		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
-			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
-			<div class="card image">
-			 <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
-			  <div class="topleft btn-xs btn-brown">Healty</div>
-			  <div class="card-body">
-			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			    <p class="card-text">Bone Natural</p>	
-			  </div>
-			</div>
-		</a>
-		</div>
-		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
-			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
-			<div class="card image">
-			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
-			  <div class="topleft btn-xs btn-success">New</div>
-			  <div class="card-body">
-			   <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			    <p class="card-text">Bone Natural</p>	
-			  </div>
-			</div>
-		</a>
-		</div>
-		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-2 col-md-offset-0 col-lg-2">
-			<a href="<?= site_url('/products/rabbit/rabbit-ears');?>">
-			<div class="card image">
-			  <img class="card-img-top" height="150" src="<?php echo get_theme_file_uri('/img/bone_natural.jpg'); ?>" alt="Card image cap">
-			  <div class="topleft btn-xs btn-danger">Top</div>
-			  <div class="card-body">
-			    <h5 class="card-title">Category: Beef/Beef Lungs</h5>
-			    <p class="card-text">Bone Natural</p>	
-			  </div>
-			</div>
-		</a>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</section>
 <div class="parallax" style="background-image: url('<?php echo get_theme_file_uri('/img/paralax_dog.jpg'); ?>');">
 	<div class="parallax-curtain">
 	<div class="row">
@@ -195,7 +120,7 @@ include('template-parts/slider.php');
 			<h2>All products contain no artificial additives dnd conform with all BRC Quality Standards.</h2>
 		</div>
 		<div class="col-md-2 col-md-offset-0">
-			<img height="250" src="<?php echo get_theme_file_uri('/img/certyfikat.png'); ?>" alt="" style="padding-top: 6em;">
+			<img class="cert" height="250" src="<?php echo get_theme_file_uri('/img/certyfikat.png'); ?>" alt="" style="padding-top: 6em;">
 		</div>		
 	</div>
 	</div>
@@ -203,6 +128,7 @@ include('template-parts/slider.php');
 
 
 <section class="category">
+
 	<h1 class="text-center">Categories</h1>
 </section>
 
@@ -211,7 +137,7 @@ include('template-parts/slider.php');
 		<div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-2 col-lg-2">
 			<div class="meat">
 				<a href="<?=site_url('products/beef');?>">
-				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_bone.jpg'); ?>" alt="Card image cap">
+				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/beef_cat.jpg'); ?>" alt="Card image cap">
 				 <p class="card-text cat_name">Beef</p>
 				</a>
 			</div>
@@ -219,7 +145,7 @@ include('template-parts/slider.php');
 		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 			<div class="meat">
 				<a href="<?=site_url('products/chicken');?>">
-				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_chicken.jpg'); ?>" alt="Card image cap">
+				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/chicken_cat.jpg'); ?>" alt="Card image cap">
 				  <p class="card-text cat_name">Chicken</p>
 				</a>
 			</div>	

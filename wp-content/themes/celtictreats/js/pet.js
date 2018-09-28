@@ -10,7 +10,8 @@ $(document).ready(function() {
   $slick.slick({
     arrows: true,
     speed: 1200,
-    adaptiveHeight: false
+    adaptiveHeight: false,
+    accessibility: false
   });
 
   $bar = $('.slider-progress .progress');

@@ -13,53 +13,29 @@
 
 <footer class="container-fluid">
 	<div class="row" style="background-image: url('<?php echo get_theme_file_uri('/img/footer_bones.png'); ?>'); height: auto; padding: 2em 0 2em; background-repeat: no-repeat;">
-		<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-md-3 col-lg-1 col-lg-offset-1">
+		<div class="col-xs-offset-1 col-sm-5 col-offset-sm-1 col-md-3 col-md-offset-1 col-lg-3">
 			<a href="">
 				<img src="<?php echo get_theme_file_uri('img/logo_nav.png'); ?>" alt="Logo Celtic Treats" height="180">
 			</a>
+		</div>	
+		<div class="col-xs-offset-1 col-sm-5 col-offset-sm-1 col-md-3 col-lg-3">
+			<p style="text-align: left; line-height: 1.5; font-size: 1em;">
+			Office:</p>
+			<p style="text-align: left; line-height: 1.5; font-size: 1em;">30 Glendale
+			Old Singland Road</p>
+			<p style="text-align: left; line-height: 1.5; font-size: 1em;">Castletroy</p>
+			<p style="text-align: left; line-height: 1.5; font-size: 1em;">V94 DT9Y</p>
+			<p style="text-align: left; line-height: 1.5; font-size: 1em;">Limerick, Ireland</p>
+			<p style="text-align: left; line-height: 1.5; font-size: 1em;">P: +353 (0) 87 935 60 20</p>
 		</div>
-		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 col-lg-offset-1">
-				<p class="text-left">
-				P: + 353 (0) 87 935 60
-				</p> 
-				<p class="text-left">
-				30 Glendalez
-				</p>
-				<p class="text-left">
-				Old Singland Road
-			</p>
-			<p class="text-left">
-				Castletroy<br/>
-				V94 DT9Y
-			</p>
-			<p class="text-left">
-				Limerick, Irleand
-			</p>
-			</p>
+		<div class="col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1">
+			<p style="text-align: left; line-height: 1.8; font-size: 1em;">
+			Warehouse:</p> 
+			<p style="text-align: left; line-height: 1.8; font-size: 1em;">Unit 10A, Eastlink Business</p> <p style="text-align: left; line-height: 1.8;font-size: 1em;">Park,</p>
+			<p style="text-align: left; line-height: 1.8; font-size: 1em;">Ballysimon Road,</p>
+			<p style="text-align: left; line-height: 1.8;font-size: 1em;">Limerick</p>
 		</div>
-		<div class="col-xs-12 col-sm-4 col-md-2 col-lg-3 col-lg-offset-1">
-			<p class="text-left ware">
-				Warehouse:
-			</p>
-			<p class="text-left ware">
-				Unit 10A, EastLink Business Park,
-			</p>
-			<p class="text-left ware">
-				Ballysimon Road,
-			</p>
-			<p class="text-left ware">
-				Limerick
-			</p>
-		</div>
-		<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
-			<div class="phone">
-				<img src="<?php echo get_theme_file_uri('img/phone_icon.png'); ?>" alt="">
-				<p>Order Now</p>
-				<p>+ 353 (0) 87 935 60 20</p>
-			</div>
-
-
-		</div>
+		<div class="clear"></div>		
 	</div>	
 </footer>			
 		<script src="https://code.jquery.com/jquery-1.9.1.min.js"
