@@ -14,7 +14,7 @@ get_header(); ?>
 		          
 		        </div>
 		        <div class="collapse navbar-collapse">
-		          <ul class="nav navbar-nav">
+		          <ul class="nav navbar-nav" style="justify-content: center; display: flex;">
 		          	
 			
 		            <li class="active"><a href="<?= site_url('start');?>">Home</a></li>		            

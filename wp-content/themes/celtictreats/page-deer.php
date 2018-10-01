@@ -9,7 +9,9 @@
 		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 		            <img src="<?php echo get_theme_file_uri('/img/hamburgermenu.png'); ?>" alt="Logo Celtic Treats" class="img-responsive" style="padding-top: 1em;">
 		          </button>
-		          
+		          <a class="navbar-brand" href="<?=site_url('start');?>">
+		            	<img src="<?php echo get_theme_file_uri('/img/celtic_logo.png'); ?>" alt="Logo Celtic Treats" height="70" class="img-responsive">
+		            </a>
 		        </div>
 		        <div class="collapse navbar-collapse">
 		          <ul class="nav navbar-nav" style="justify-content: center; display: flex;">
@@ -20,7 +22,7 @@
 					<li><a href="<?= site_url('about-us'); ?>">About Us</a></li>
         			
 
-		            <li class="dropdown">
+		             <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Beef</a>
                       <ul class="dropdown-menu">                        
                         <li><a href="#">Beef Ears</a></li>
@@ -108,8 +110,7 @@
                             <span>Order Now</span>
                             <span>+ 353 (0) 87 935 60 20</span>
                               </a>
-                        </button>
-		            </li>-->  
+                        </button>--> 
 		          </ul>
 		            <ul class="clearfix"></ul>
 		                  
@@ -154,36 +155,26 @@
 
 
 
-<div class="row" style="margin-top: 2em; border-top: solid .05em #6d5531; border-bottom: solid .05em #6d5531;">
-	<div class="col-md-3 bread_box">
-		<span class="breadcrumps"><?php the_breadcrumb(); ?></span>
-	</div>
-	<div class="col-md-5 col-md-offset-0">
-		<h1 class="contact">Beef</h1>
-	</div>
-	<div class="clearfix"></div>
+
+<div class="container-fluid">
+  <h1 class="contact" style="margin:.5em 0;">Deer</h1>
 </div>
 <section>
-
-		
+	
 	<div class="container" style="margin-top: 2em;">		
 		
-		<?php while ( have_posts() ) : the_post(); ?>
+		<?php
+            while (have_posts()) {
+                the_post();
+                ?>
 
-			<?php wc_get_template_part( 'content', 'single-product' ); ?>
+                <?php the_content(); ?>
 
-		<?php endwhile; ?>
-
+            <?php }
+            ?>
   			
 				
 	</div>
 </section>
 
 <?php get_footer(); ?>
-
-
-
-
-
-<?php get_footer();?>
-

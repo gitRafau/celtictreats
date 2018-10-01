@@ -11,7 +11,7 @@
 		          </button>
 		          
 		        <div class="collapse navbar-collapse">
-		         <ul class="nav navbar-nav">
+		         <ul class="nav navbar-nav" style="justify-content: center; display: flex;">
 		          	
 		          
 			
@@ -161,14 +161,8 @@
 
 
 
-<div class="row" style="margin-top: 2em; border-top: solid .05em #6d5531; border-bottom: solid .05em #6d5531;">
-	<div class="col-md-3 bread_box">
-		<span class="breadcrumps"><?php the_breadcrumb(); ?></span>
-	</div>
-	<div class="col-md-5 col-md-offset-0">
-		<h1 class="contact">Pork</h1>
-	</div>
-	<div class="clearfix"></div>
+<div class="container-fluid">
+  <h1 class="contact" style="margin:.5em 0;">Pork</h1>
 </div>
 <section>
 	

@@ -10,7 +10,7 @@
 		         
 		        </div>
 		        <div class="collapse navbar-collapse">
-		          <ul class="nav navbar-nav">
+		          <ul class="nav navbar-nav" style="justify-content: center; display: flex;">
 		            <li class="active"><a href="<?= site_url('start');?>">Home</a></li>		            
 					<li><a href="<?= site_url('about-us'); ?>">About Us</a></li>
         			
@@ -26,7 +26,7 @@
                         <li role="separator" class="divider"></li>
                         <li><a href="#">Beef Liver</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Beef Lungs</a></li>
+                        <li><a href="#">Beef Cubes</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#">Beef Mix</a></li>
                         <li role="separator" class="divider"></li>
@@ -66,17 +66,23 @@
                         <li><a href="#">Chicken Necks</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#">Chicken Feet</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Chcicken Meat Streps</a></li>
                       </ul>
                     </li>
+
+                    
 
                      <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pork</a>
                       <ul class="dropdown-menu">
-                        <li><a href="#">PorkNoses</a></li>
+                        <li><a href="#">Pork Noses</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#">Pork Sholoder Bones</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Pork Legs</a></li>          
+                        <li><a href="#">Pork Legs</a></li>   
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Pork Meat Streps</a></li>       
                       </ul>
                     </li>
 
@@ -101,7 +107,7 @@
 			            
 			          </ul>
         			</li>
-		            <li><a href="<?= site_url('buy');?>">Buy</a></li>
+		            <li><a href="<?= site_url('start');?>">Buy</a></li>
 		            <li><a href="<?= site_url('contact');?>">Contact</a></li>
 		            <!--<li>
 		            	 <button class="btn btn-block" style="background-color: #806641;">
@@ -165,16 +171,11 @@ function closeNav() {
 </script>
 
 
-<div class="row" style="margin-top: 2em; border-top: solid .05em #6d5531; border-bottom: solid .05em #6d5531;">
-	<div class="col-md-3 bread_box">
-		<span class="breadcrumps"><?php the_breadcrumb(); ?></span>
-	</div>
-	<div class="col-md-5 col-md-offset-0">
-		<h1 class="contact">Contact</h1>
-	</div>
-	<div class="clearfix"></div>
-</div>
 
+<div class="coontainer-fluid">
+	<h1 class="contact" style="margin:.1em 0;">Contact</h1>
+</div>
+	
 <section class="mapa">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
@@ -185,29 +186,31 @@ function closeNav() {
 
 <section class="container" style="margin-top: 20px;">
   <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      <?php echo do_shortcode('[contact-form-7 id="84" title="Contact CelticTreats"]');?>
-      <div class="office" style="color: #927042; font-weight: bold;">
+    <div class="col-md-6">
+      <?php echo do_shortcode('[contact-form-7 id="174" title="Celtic Form"]');?> 
+      <div class="office" style="color: #927042; font-weight: bold; padding-top: 1em;">
       Office: <br/>
-      30 Glendale<br/>
-      Old Singland Road<br/>
-      Castletroy<br/>
+      30 Glendale, Old Singland Road<br/>
+      Castletroy<br/><br/>
       V94 DT9Y<br/>
       Limerick, Ireland<br/>
       P: +353 (0) 87 935 60 20
       </div>
+     
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-top: 1em;">
+        <div class="col-md-6">
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="col-md-5">
           <img src="<?php echo get_theme_file_uri('img/logo_jumbo.png');?>" class="" alt="">
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <p style="color: #927042; font-weight: bold;">
+        <div class="col-md-7">
+          <p style="font-weight: bold;">
             Warehouse:<br/>   
-            Unit 10A, Eastlink Business <br/>
-            Park,<br/>
-            Ballysimon Road,Limerick
+            Unit 10A, <br/> 
+            Eastlink Business Park,<br/>
+            <a href="tel: +353 (0) 87 935 60 20">
+              +353 (0) 87 935 60 20
+            </a>   
           </p>
         </div>
       </div>
@@ -242,5 +245,5 @@ function closeNav() {
    
 </script>
 
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <?php get_footer(); ?>

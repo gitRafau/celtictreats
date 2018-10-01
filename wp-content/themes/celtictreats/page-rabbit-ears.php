@@ -15,7 +15,7 @@
 		            </a>
 		        </div>
 		        <div class="collapse navbar-collapse">
-		         <ul class="nav navbar-nav">
+		         <ul class="nav navbar-nav" style="justify-content: center; display: flex;">
 		          	
 		          
 			

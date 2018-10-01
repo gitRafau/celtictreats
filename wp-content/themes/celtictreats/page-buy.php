@@ -10,7 +10,7 @@
 		         
 		        </div>
 		        <div class="collapse navbar-collapse">
-		          <ul class="nav navbar-nav">
+		          <ul class="nav navbar-nav" style="justify-content: center; display: flex;">
 		            <li class="active"><a href="<?= site_url('start');?>">Home</a></li>		            
 					<li><a href="<?= site_url('about-us'); ?>">About Us</a></li>
         			
@@ -165,15 +165,12 @@ function closeNav() {
 </script>
 
 
-<div class="row" style="margin-top: 2em; border-top: solid .05em #6d5531; border-bottom: solid .05em #6d5531;">
-	<div class="col-md-3 bread_box">
-		<span class="breadcrumps"><?php the_breadcrumb(); ?></span>
-	</div>
-	<div class="col-md-5 col-md-offset-0">
-		<h1 class="contact">Where To Buy</h1>
-	</div>
-	<div class="clearfix"></div>
+
+<div class="container-fluid">
+	<h1 class="contact" style="margin:.5em 0;">Where To Buy</h1>
 </div>
+
+
 
 <section class="mapa">
 	<div class="row">
@@ -193,17 +190,17 @@ $miejsca = get_field('places');
 	
 	<div class="row">	
 		<?php foreach ($miejsca as $item): ?>
-		<div class="col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-1">			
-			<div class="row">
-				<div class="col-md-4">
-					<img src="<?php echo get_theme_file_uri('img/logo_places.png'); ?>" height="80" alt="">
+		<div class="col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-1">			
+			<div class="row" style="padding: 1em 0em;">
+				<div class="col-sm-4 col-md-3" style="padding-top: .1.2em;">
+					<img src="<?php echo get_theme_file_uri('img/logo_jumbo.png'); ?>" height="70" alt="">
 				</div>
-				<div class="col-sm-8 col-md-8">
-					<p><?= $item['name']; ?></p>					
-					<h5><?= $item['address']; ?></h5>					
+				<div class="col-sm-8 col-md-8 offset-md-1" id="location">
+					<p style="line-height: 1; padding-left: 1.3em;"><?= $item['name']; ?></p>			
+					<h5 style="line-height: 1; padding-left: 1.3em;"><?= $item['address']; ?></h5>
 				</div>
 			</div>
-
+      <div class="clearfix"></div>
 		</div>
 		<?php endforeach; ?>	
 	</div>

@@ -135,5 +135,9 @@ function wc_nested_category_layout_category_title_html( $title, $categories, $te
     $link = '<a href="' . $url . '">' . wptexturize( $category->name ) . '</a>';
     return sprintf( '<h2 class="wc-nested-category-layout-category-title">%s</h2>', $link );
 }
+
+
+
+
 ?>
 

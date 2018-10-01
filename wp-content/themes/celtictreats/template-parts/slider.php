@@ -12,7 +12,7 @@
     	
     		<header class="menu">
             <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav" style="margin-top: 40px;">                    
+                <ul class="nav navbar-nav" style="margin-top: 40px; justify-content: center; display: flex;">                    
                     <li class="active"><a href="<?= site_url('start');?>">Home</a></li>                
                     <li><a href="<?= site_url('about-us'); ?>">About Us</a></li>
                     
@@ -43,14 +43,14 @@
                       </ul>
                     </li>
                     
-                    <li class="dropdown">
+                    <!--<li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Beef Meat Strips</a>
                       <ul class="dropdown-menu">
                         <li><a href="#">Chicken Meat Strips</a></li>  
                         <li role="separator" class="divider"></li>
                         <li><a href="#">Pork Meat Strips</a></li>                  
                       </ul>
-                    </li>
+                    </li>-->
 
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Deer</a>
@@ -151,9 +151,7 @@
                     <a href="<?= site_url('buy'); ?>">Buy</a>
                     <a href="<?= site_url('contact'); ?>">Contact</a>
                 </div>
-                <a class="navbar-brand" href="<?=site_url('start');?>">
-                    <img src="<?php echo get_theme_file_uri('/img/celtic_logo.png'); ?>"  alt="Logo Celtic Treats" height="70" class="img-responsive">
-                </a>
+               
             </div>
         </div>
     </div>

@@ -134,43 +134,62 @@ include('template-parts/slider.php');
 
 <div class="parallax2" style="background-image: url('<?php echo get_theme_file_uri('/img/bulldog_paralax.png'); ?>');">
 	<div class="row cat_paralax">
-		<div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-2 col-lg-2">
-			<div class="meat">
-				<a href="<?=site_url('products/beef');?>">
-				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/beef_cat.jpg'); ?>" alt="Card image cap">
-				 <p class="card-text cat_name">Beef</p>
-				</a>
+		<div class="row">
+			<div class="col-sm-4 col-md-3 col-md-offset-1">
+				<div class="meat">
+					<a href="<?=site_url('products/beef');?>">				 
+					 <p class="card-text cat_name">Beef</p>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-4 col-md-3 col-md-offset-1">
+				<div class="meat">
+					<a href="<?=site_url('products/chicken');?>">				 
+					 <p class="card-text cat_name">Chicken</p>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-4 col-md-3 col-md-offset-1">
+				<div class="meat">
+					<a href="<?=site_url('products/pork');?>">				 
+					 <p class="card-text cat_name">pork</p>
+					</a>
+				</div>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-			<div class="meat">
-				<a href="<?=site_url('products/chicken');?>">
-				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/chicken_cat.jpg'); ?>" alt="Card image cap">
-				  <p class="card-text cat_name">Chicken</p>
-				</a>
-			</div>	
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-			<div class="meat">
-				<a href="<?=site_url('products/pork');?>">
-				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_pork.jpg'); ?>" alt="Card image cap">
-				  <p class="card-text cat_name">Pork</p>
-				</a>
+
+		<div class="row">
+			<div class="col-sm-4 col-md-3 col-md-offset-1">
+				<div class="meat">
+					<a href="<?=site_url('products/deer');?>">				 
+					 <p class="card-text cat_name">deer</p>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-4 col-md-3 col-md-offset-1">
+				<div class="meat">
+					<a href="<?=site_url('products/lamb');?>">				 
+					 <p class="card-text cat_name">Lamb</p>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-4 col-md-3 col-md-offset-1">
+				<div class="meat">
+					<a href="<?=site_url('products/rabbit');?>">				 
+					 <p class="card-text cat_name">Rabbit</p>
+					</a>
+				</div>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-			<div class="meat">
-				<a href="<?=site_url('products/rabbit');?>">
-				 <img class="card-img-top img-responsive img-thumbnail" src="<?php echo get_theme_file_uri('/img/cat_rabbit.jpg'); ?>" alt="Card image cap">
-				  <p class="card-text cat_name">Rabbit</p>
-				</a>
-			</div>
-		</div>
+		<div class="clearfix"></div>
 	</div>
 </div>
 
-
-
+<!--<div class="meat">
+	<a href="<?=site_url('products/beef');?>">				 
+	 <p class="card-text cat_name">Beef</p>
+	</a>
+</div>-->
 
 
 <?php get_footer(); ?>
